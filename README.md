@@ -2,6 +2,8 @@
 
 > 版权声明：本文为博主原创文章，未经博主允许不得转载。欢迎 Issues 留言。
 
+[点击查看 codesandbox 中 demo 示例](https://codesandbox.io/s/slidershi-jian-jian-ju-olnwp7)
+
 # 一、背景
 
 在实际开发过程中，遇到个有趣的小功能，这里分享一下实现过程。主要是通过 antd 的 slider 组件进行实现，并且用括号标注一个区间进行显示。如下图所示：
@@ -341,8 +343,6 @@ css 样式如下：
   border-bottom-left-radius: 20px;
 }
 ```
-
-[点击查看以上 demo 完整代码](https://codesandbox.io/s/slidershi-jian-jian-ju-olnwp7)
 
 # 三、参考文章
 
