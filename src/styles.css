@@ -1,0 +1,25 @@
+.App {
+  position: relative;
+  font-family: sans-serif;
+  text-align: center;
+  width: 80%;
+  height: 200px;
+  padding: 50px 0;
+  margin: 0 50px;
+}
+.ant-slider-mark-text{
+  min-width: fit-content;
+}
+.App .ant-slider-disabled {
+  cursor: auto;
+}
+.App .ant-slider-disabled .ant-slider-handle {
+  display: none;
+}
+.App .ant-slider-disabled .ant-slider-track {
+  background-color: rgb(9, 113, 241) !important;
+}
+
+.App .ant-slider-disabled .ant-slider-dot.ant-slider-dot-active {
+  border-color: rgb(9, 113, 241) !important;
+}

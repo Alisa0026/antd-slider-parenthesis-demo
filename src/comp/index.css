@@ -1,0 +1,52 @@
+.parenthesis-box {
+  position: absolute;
+  top: 40px;
+}
+.parenthesis-inner {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+.parenthesis-text {
+  position: relative;
+  top: -40px;
+}
+.parenthesis-inner::before,
+.parenthesis-inner::after,
+.parenthesis::before,
+.parenthesis::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: calc(50% - 20px);
+  height: 20px;
+  border-style: solid;
+  border-color: rgb(9, 113, 241);
+  border-width: 0;
+}
+.parenthesis::before,
+.parenthesis::after {
+  top: 0;
+  border-top-width: 1px;
+}
+.parenthesis-inner::before,
+.parenthesis-inner::after {
+  top: -19px;
+  border-bottom-width: 1px;
+}
+.parenthesis::before {
+  left: 0;
+  border-top-left-radius: 20px;
+}
+.parenthesis::after {
+  right: 0;
+  border-top-right-radius: 20px;
+}
+.parenthesis-inner::before {
+  left: 20px;
+  border-bottom-right-radius: 20px;
+}
+.parenthesis-inner::after {
+  right: 20px;
+  border-bottom-left-radius: 20px;
+}
